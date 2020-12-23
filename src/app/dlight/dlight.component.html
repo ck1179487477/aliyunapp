@@ -1,0 +1,14 @@
+<div *ngIf="aaa==1" class="d-flex justify-content-center">
+    <img
+        src="https://yuanxucong.oss-cn-hangzhou.aliyuncs.com/imgs/led_on.jpg?OSSAccessKeyId=LTAI4Fhcvcfg2jQnGopSEBqu&Expires=1609045741&Signature=T9eWRhsXx8SE7FlvfppGST0uitA%3D">
+</div>
+<div *ngIf="aaa==0" class="d-flex justify-content-center">
+    <img
+        src="https://yuanxucong.oss-cn-hangzhou.aliyuncs.com/imgs/led_off.jpg?OSSAccessKeyId=LTAI4Fhcvcfg2jQnGopSEBqu&Expires=1609045720&Signature=jBkLdVE27l5aPx0gkCvCM6%2Fki5Y%3D">
+</div>
+
+<div class="d-flex justify-content-center">
+    <button type="button" class="btn btn-outline-success" (click)="turnOn()">打开</button>
+    <button type="button" class="btn btn-outline-danger" (click)="turnOff()">关闭</button>
+    <button type="button" class="btn btn-outline-info" (click)="back()">返回</button>
+</div>

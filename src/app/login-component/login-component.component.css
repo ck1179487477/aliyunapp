@@ -1,0 +1,18 @@
+.login-content {
+    height: 100vh;
+    width: 100%;
+}
+
+form{
+    width: 40rem;
+}
+
+.login-img-content {
+    height: 100vh;
+    width: 100%;
+}
+
+.background {
+    background:url(https://yuanxucong.oss-cn-hangzhou.aliyuncs.com/imgs/1.jpg?OSSAccessKeyId=LTAI4Fhcvcfg2jQnGopSEBqu&Expires=1609045504&Signature=P%2FHGEgd%2F0Vxkg3JRDxNTgCiMA9A%3D);
+    width: 100%;
+}
